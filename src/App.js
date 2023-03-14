@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   ChakraProvider,
   Box,
@@ -8,43 +8,40 @@ import {
   Code,
   Grid,
   theme,
-} from '@chakra-ui/react';
-import { useBoolean } from '@chakra-ui/react';
-import { ColorModeSwitcher } from './components/ColorModeSwitcher';
-import { Logo } from './components/Logo';
-import {Header, Navigation} from "./components";
-
-
+} from "@chakra-ui/react";
+import { useBoolean } from "@chakra-ui/react";
+import { ColorModeSwitcher } from "./components/ColorModeSwitcher";
+import { Logo } from "./components/Logo";
+import { Header, Navigation } from "./components";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/global.css";
 
 function App() {
   return (
-
-
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
           {/* <Header></Header> */}
-          
+
           <ColorModeSwitcher justifySelf="flex-end" />
           <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text useBoolean>
+            <Logo />
+            {/* <Text useBoolean>
               
-            </Text>
+            </Text> */}
             <Link
               color="teal.500"
               href="https://linktr.ee/oluanuakin"
               fontSize="2xl"
               target="_blank"
               rel="noopener noreferrer"
-              >
-              øLu 
+            >
+              øLu
             </Link>
           </VStack>
         </Grid>
       </Box>
     </ChakraProvider>
-              
   );
 }
 
