@@ -4,7 +4,7 @@
 
 ## Links 🔗
 
-- The repo of the note app: [Source Code](https://github.com/EshuShango/11-note-taker)
+- The repo of the note app: [Source Code](https://github.com/EshuShango/Olu-Tobi-Akinyemi)
 
 ## Description 🔎
 
