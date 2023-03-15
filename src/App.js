@@ -33,14 +33,12 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
-        <Header style={{margin:"20px"}}
-        // usState={{ColorModeSwitcher, justifySelf:"flex-end"}}
-        />
 
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
+        <Grid minH="100vh" p={3} >
+      <ColorModeSwitcher justifySelf="flex-end" />
 
           <VStack spacing={10}>
+        <Header/>
             <Link
               color="teal.500"
               href="https://linktr.ee/oluanuakin"
@@ -50,8 +48,8 @@ function App() {
             >
               <WrapItem>
 
-              <Tooltip label="Click the link and get to know me a bit more"
-              placement='bottom' defaultIsOpen
+              <Tooltip label="Click these emojis and get to know me a bit more"
+              placement='bottom' 
                aria-label="A tooltip">
                💛🦾🌱 
               </Tooltip>
