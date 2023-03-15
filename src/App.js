@@ -33,7 +33,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
-        <Header
+        <Header style={{margin:"20px"}}
         // usState={{ColorModeSwitcher, justifySelf:"flex-end"}}
         />
 
