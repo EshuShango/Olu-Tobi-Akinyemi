@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Olu-Tobi-Akinyemi/static/css/main.4778a9f4.css",
+    "main.js": "/Olu-Tobi-Akinyemi/static/js/main.5ff8fbc9.js",
+    "static/js/787.bd5fb52a.chunk.js": "/Olu-Tobi-Akinyemi/static/js/787.bd5fb52a.chunk.js",
+    "index.html": "/Olu-Tobi-Akinyemi/index.html",
+    "main.4778a9f4.css.map": "/Olu-Tobi-Akinyemi/static/css/main.4778a9f4.css.map",
+    "main.5ff8fbc9.js.map": "/Olu-Tobi-Akinyemi/static/js/main.5ff8fbc9.js.map",
+    "787.bd5fb52a.chunk.js.map": "/Olu-Tobi-Akinyemi/static/js/787.bd5fb52a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4778a9f4.css",
+    "static/js/main.5ff8fbc9.js"
+  ]
+}
