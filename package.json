@@ -2,6 +2,7 @@
   "name": "olu-port",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://eshushango.github.io/Olu-Tobi-Akinyemi",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.5.1",
@@ -12,6 +13,7 @@
     "@testing-library/user-event": "^14.4.3",
     "eslint": "^8.36.0",
     "framer-motion": "^6.5.1",
+    "gh-pages": "^5.0.0",
     "nodemon": "^2.0.21",
     "reach-router": "^0.0.0",
     "react": "^18.2.0",
@@ -24,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

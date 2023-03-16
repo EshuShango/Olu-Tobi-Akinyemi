@@ -5,7 +5,7 @@
 ## Links 🔗
 
 - The repo of my Portfolio: [Source Code](https://github.com/EshuShango/Olu-Tobi-Akinyemi)
-- The GitHub site of the Portfolio: [GitHubIO]()
+- The GitHub site of the Portfolio: [GitHubIO](https://eshushango.github.io/Olu-Tobi-Akinyemi/)
 
 ## Description 🔎
 
